@@ -1,7 +1,7 @@
 import { useState } from "react";
 import InputField from "./InputField.jsx";
 import SelectField from "./SelectField.jsx";
-import SubmitButton from "./Submitbutton.jsx";
+import SubmitButton from "./SubmitButton.jsx";
 
 function ProductForm() {
   const [form, setForm] = useState({
@@ -17,7 +17,7 @@ function ProductForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-gray-100 p-5 rounded-lg shadow-md max-w-sm"
+      className="bg-gray-100 p-6 rounded-xl shadow-lg max-w-lg w-full"
     >
       <h2 className="text-xl font-semibold mb-4">Tambah Produk</h2>
       <InputField form={form} setForm={setForm} />

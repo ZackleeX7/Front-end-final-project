@@ -1,6 +1,6 @@
-import CategoryFilter from "./CategoryFilter";
-import PriceRangeFilter from "./PriceRangeFilter";
-import StockStatusFilter from "./StockStatusFilter";
+import CategoryFilter from "../filters/CategoryFilter";
+import PriceRangeFilter from "../filters/PriceRangeFilter";
+import StockStatusFilter from "../filters/StockStatusFilter";
 
 function FilterPanel() {
   return (

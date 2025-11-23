@@ -1,5 +1,5 @@
 function SelectField({ value, onChange }) {
-  const categories = ["Elektronik", "Pakaian", "Makanan", "Aksesoris"];
+  const categories = ["Elektronik", "Fashion","Alat Tulis"];
   return (
     <div className="mb-3">
       <label className="block text-sm font-medium mb-1">Kategori</label>
