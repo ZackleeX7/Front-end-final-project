@@ -1,12 +1,12 @@
-const EditButton = ({ onEdit }) => {
+function EditButton({ onClick }) {
   return (
     <button
-      onClick={onEdit}
-      className="px-3 py-1 text-sm border rounded text-blue-600 hover:bg-blue-50" // Change color for 'Edit'
+      onClick={onClick}
+      className="bg-yellow-500 text-white px-3 py-1 rounded-md hover:bg-yellow-600 transition"
     >
       Edit
     </button>
   );
-};
+}
 
 export default EditButton;

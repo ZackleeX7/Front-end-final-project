@@ -1,10 +1,15 @@
 import ProductItem from "./productitems/ProductItem";
 
-function ProductList({ products }) {
+function ProductList({ products, onDelete, onEdit }) {
   return (
     <div style={{ marginTop: "1rem" }}>
       {products.map((product) => (
-        <ProductItem key={product.id} product={product} />
+        <ProductItem
+          key={product.id}
+          product={product}
+          onDelete={onDelete}
+          onEdit={onEdit}
+        />
       ))}
     </div>
   );
