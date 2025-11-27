@@ -1,8 +1,12 @@
-function CategoryFilter() {
+function CategoryFilter({ value, onChange }) {
   return (
     <div style={{ marginBottom: "1rem" }}>
       <label>Kategori:</label>
-      <select style={{ width: "100%" }}>
+      <select
+        style={{ width: "100%" }}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+      >
         <option value="">Semua</option>
         <option value="elektronik">Elektronik</option>
         <option value="fashion">Fashion</option>

@@ -1,23 +1,25 @@
-[
-  {
-    "id": 1,
-    "name": "Laptop Asus",
-    "price": 8500000,
-    "stock": 12,
-    "category": "Elektronik"
-  },
-  {
-    "id": 2,
-    "name": "Kemeja Putih",
-    "price": 150000,
-    "stock": 30,
-    "category": "Fashion"
-  },
-  {
-    "id": 3,
-    "name": "Buku Tulis",
-    "price": 5000,
-    "stock": 100,
-    "category": "Alat Tulis"
-  }
-]
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop Asus",
+      "price": 8500000,
+      "stock": 20,
+      "category": "Elektronik"
+    },
+    {
+      "id": "2",
+      "name": "Kemeja Putih",
+      "price": 150000,
+      "stock": 30,
+      "category": "Fashion"
+    },
+    {
+      "id": "3",
+      "name": "Buku Tulis",
+      "price": 5000,
+      "stock": 100,
+      "category": "Alat Tulis"
+    }
+  ]
+}

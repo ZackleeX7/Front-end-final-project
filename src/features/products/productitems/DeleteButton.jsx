@@ -1,12 +1,12 @@
-const DeleteButton = ({ onDelete }) => {
+function DeleteButton({ onClick }) {
   return (
     <button
-      onClick={onDelete}
-      className="px-3 py-1 text-sm border rounded text-red-600 hover:bg-red-100"
+      onClick={onClick}
+      className="bg-red-500 text-white px-3 py-1 rounded-md hover:bg-red-600 transition"
     >
-      Delete
+      Hapus
     </button>
   );
-};
+}
 
 export default DeleteButton;
